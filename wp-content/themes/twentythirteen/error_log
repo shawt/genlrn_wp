@@ -1,0 +1,2 @@
+[21-Nov-2016 14:04:23 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/genlrnco/public_html/wp-content/themes/twentythirteen/author.php on line 12
+[12-Oct-2017 07:02:18 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/genlrnco/public_html/wp-content/themes/twentythirteen/404.php on line 10

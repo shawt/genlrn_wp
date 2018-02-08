@@ -1,0 +1,10 @@
+[28-Oct-2017 05:51:36 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/genlrnco/public_html/wp-content/themes/twentyfifteen/index.php on line 17
+[28-Oct-2017 05:51:57 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/genlrnco/public_html/wp-content/themes/twentyfifteen/index.php on line 17
+[28-Oct-2017 05:52:20 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/genlrnco/public_html/wp-content/themes/twentyfifteen/index.php on line 17
+[29-Oct-2017 14:53:45 America/Denver] PHP Fatal error:  Call to undefined function the_ID() in /home1/genlrnco/public_html/wp-content/themes/twentyfifteen/content.php on line 13
+[29-Oct-2017 14:54:01 America/Denver] PHP Fatal error:  Call to undefined function the_ID() in /home1/genlrnco/public_html/wp-content/themes/twentyfifteen/content.php on line 13
+[29-Oct-2017 14:54:28 America/Denver] PHP Fatal error:  Call to undefined function the_ID() in /home1/genlrnco/public_html/wp-content/themes/twentyfifteen/content.php on line 13
+[26-Nov-2017 15:49:48 America/Denver] PHP Fatal error:  Call to undefined function the_ID() in /home1/genlrnco/public_html/wp-content/themes/twentyfifteen/content-link.php on line 13
+[07-Dec-2017 14:14:20 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/genlrnco/public_html/wp-content/themes/twentyfifteen/404.php on line 10
+[16-Jan-2018 19:04:15 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/genlrnco/public_html/wp-content/themes/twentyfifteen/index.php on line 17
+[27-Jan-2018 01:01:44 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/genlrnco/public_html/wp-content/themes/twentyfifteen/404.php on line 10

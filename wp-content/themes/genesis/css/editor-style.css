@@ -1,0 +1,67 @@
+/*Fonts*/
+h1,h2,h3,h4,h5,h6,
+p,em,strong,li,a,blockquote,
+div,article,section,aside {
+    font-family: 'Ubuntu', sans-serif;
+    color:#3B3B3C;
+}
+strong {
+    font-weight:500;
+}
+h1 {
+    font-weight:300;
+    text-align:left;
+    font-size:30px;
+}
+h2 {
+    font-weight:300;
+    text-align:center;
+    font-size:30px;
+}
+h3 {
+    font-weight:500;
+    text-align:left;
+    font-size:20px;
+}
+h4 {
+    font-weight:300;
+    text-align:left;
+    font-size:20px;
+}
+p {
+    font-weight:300;
+    text-align:left;
+    font-size:14px;
+    line-height:30px;
+}
+ul {
+    list-style-image:url(images/check.png);
+}
+li {
+    font-size:14px;
+    font-weight:300;
+    line-height:17px;
+}
+.inner header h1.center {
+    text-align:center;
+}
+blockquote {
+    font-size:20px;
+    font-style:italic;
+    text-align:center;
+}
+ol {
+    list-style-type:none;
+    padding-left:0;
+    margin-left:0;
+}
+ol li {
+    color:#3094C6;
+    font-weight:300px;
+    font-size:20px;
+    padding-bottom:20px;
+}
+ol li:before {
+    content:"Q ";
+    font-weight:700;
+}

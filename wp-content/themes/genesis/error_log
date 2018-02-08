@@ -1,0 +1,4 @@
+[06-Oct-2017 11:04:09 America/Denver] PHP Fatal error:  Call to undefined function language_attributes() in /home1/genlrnco/public_html/wp-content/themes/genesis/header.php on line 2
+[06-Oct-2017 11:04:09 America/Denver] PHP Fatal error:  Call to undefined function language_attributes() in /home1/genlrnco/public_html/wp-content/themes/genesis/header.php on line 2
+[17-Oct-2017 00:16:06 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/genlrnco/public_html/wp-content/themes/genesis/index.php on line 1
+[17-Oct-2017 00:16:06 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/genlrnco/public_html/wp-content/themes/genesis/index.php on line 1

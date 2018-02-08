@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* Barts HTML5 Kit v4 | MIT 
+ * http://www.rockemgraphics.com
+ */
+
+/*----------------------------Settings*/
+body {
+	width:100%;
+	height:100%;	
+}
+body * {
+	margin:0;
+	padding:0;
+}
+.clear {
+	clear:both;	
+}
+#spacer {
+	width:100%;
+	margin-bottom:2000px;	
+}
+.full {
+	width:100%;	
+}
+.centered {
+	width:960px;
+	height:auto;
+	margin:0 auto;	
+}
+.left {
+	float:left;	
+}
+.right {
+	float:right;
+}
+
+
+/*----------------------------Fonts*/
+
+
+
+/*----------------------------Style*/
+
