@@ -40,7 +40,7 @@ get_header(); ?>
 <div id="spacer"></div>
 <?php
 	$obj = get_queried_object();
-	$color = get_field( 'color', $obj->ID ) ? get_field( 'color', $obj->ID ) : 'red' ;
+	$color = get_post_field( 'color', $obj->ID ) ? get_post_field( 'color', $obj->ID ) : 'red' ;
 ?>
 
 <?php if( $obj->ID == 1534 ){ ?>
