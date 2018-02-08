@@ -238,7 +238,7 @@ $more = 0;
                         </ul>
                     </nav>
 
-                    <?php  $pods = new Pod('theme_settings'); ?>
+                    <?php  $pods = pods('theme_settings'); ?>
                     <a class="contactUs" href="<?php  echo $pods->field('contact_us.guid'); ?>" title="Contact Us">Contact Us</a>
     <div class="clear"></div>
                 </div></article>
