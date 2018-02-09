@@ -40,7 +40,7 @@ get_header(); ?>
 <div id="spacer"></div>
 <?php
 	//$obj = get_queried_object();
-        $obj = get_category();
+         $obj = get_category(get_query_var('cat'));
 	$color = get_post_field( 'color', $obj->term_id ) ? get_post_field( 'color', $obj->term_id ) : 'red' ;
 ?>
 
