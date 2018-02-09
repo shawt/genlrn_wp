@@ -38,24 +38,7 @@ get_header(); ?>
                  </nav>
 </div>
 <div id="spacer"></div>
-/* <?php
-	$obj = get_queried_object();
-         
-	$color = get_post_field( 'color', $obj->queried_object_id ) ? get_post_field( 'color', $obj->queried_object_id ) : 'red' ;
-?>
 
-<?php if( $obj->queried_object_id == 1534 ){ ?>
-	<header id="contentHead" class="centered border" data-color="<?= $color ?>">
-
-		<?php $id = $obj->ID; $icon = get_post_meta( $id, 'page-icon', true );  if (!empty($icon)) : ?>
-			<img id="sectionIcon" src="//<?php the_field('page-icon', $obj->ID ); ?>" alt="<?= $obj->post_title; ?>"/>
-		<?php endif ;?>
-		
-		<h1><?= $obj->post_title; ?></h1>
-		
-	</header>
-	
-<?php } ?> */
 <section id="main" class="centered border woocommerce" >
 	<?//= do_shortcode("[huge_it_slider id='2']"); ?>
 	<article>
