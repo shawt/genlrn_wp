@@ -40,10 +40,10 @@ get_header(); ?>
 <div id="spacer"></div>
 <?php
 	$obj = get_queried_object();
-	$color = get_post_field( 'color', $obj->ID ) ? get_post_field( 'color', $obj->ID ) : 'red' ;
+	$color = get_post_field( 'color', $obj->term_id ) ? get_post_field( 'color', $obj->term_id ) : 'red' ;
 ?>
 
-<?php if( $obj->ID == 1534 ){ ?>
+<?php if( $obj->term_id == 1534 ){ ?>
 	<header id="contentHead" class="centered border" data-color="<?= $color ?>">
 
 		<?php $id = $obj->ID; $icon = get_post_meta( $id, 'page-icon', true );  if (!empty($icon)) : ?>
