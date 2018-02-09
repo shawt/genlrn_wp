@@ -39,12 +39,12 @@ get_header(); ?>
 </div>
 <div id="spacer"></div>
 <?php
-	//$obj = get_queried_object();
-         $obj = get_category(get_query_var('cat'));
-	$color = get_post_field( 'color', $obj->term_id ) ? get_post_field( 'color', $obj->term_id ) : 'red' ;
+	$obj = get_queried_object();
+         
+	$color = get_post_field( 'color', $obj->queried_object_id ) ? get_post_field( 'color', $obj->queried_object_id ) : 'red' ;
 ?>
 
-<?php if( $obj->term_id == 1534 ){ ?>
+<?php if( $obj->queried_object_id == 1534 ){ ?>
 	<header id="contentHead" class="centered border" data-color="<?= $color ?>">
 
 		<?php $id = $obj->ID; $icon = get_post_meta( $id, 'page-icon', true );  if (!empty($icon)) : ?>
